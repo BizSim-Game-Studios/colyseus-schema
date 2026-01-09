@@ -1,5 +1,3 @@
-lib
-
 # Tests
 coverage/
 .nyc_output/
