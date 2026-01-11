@@ -1,5 +1,5 @@
 {
-  "name": "@bizsim-game-studios/colyseus-schema",
+  "name": "@bizsimgamestudios/colyseus-schema",
   "version": "3.0.76",
   "description": "Binary state serializer with delta encoding for games (BizSim fork)",
   "bin": {
@@ -7,7 +7,7 @@
     "schema-debug": "bin/schema-debug"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "scripts": {
     "build": "tsc && rollup -c rollup.config.mjs",
